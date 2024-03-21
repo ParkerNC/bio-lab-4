@@ -1,4 +1,4 @@
-num_particles, interia, cognition, social, gen, epoch_stop, solution_found, fitness
+num_particles,inertia,cognition,social,gen,epoch_stop,solution_found,fitness
 40, 0.5, 2.6, 0.1, 0, 139, [1.00000165 2.99999907], 5.664674474626608e-12
 40, 0.5, 2.6, 0.1, 1, 139, [1.00000018 3.0000002 ], 6.430890165036719e-13
 40, 0.5, 2.6, 0.1, 2, 138, [1.0000009  2.99999931], 1.4732308873218616e-12
