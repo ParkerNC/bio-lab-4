@@ -1,1 +1,1 @@
-num_particles, interia, cognition, social, gen, epoch_stop, solution_found, fitness
+num_particles,inertia,cognition,social,gen,epoch_stop,solution_found,fitness
