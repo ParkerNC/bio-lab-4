@@ -59,7 +59,10 @@ class PSO:
         x = position[0]
         y = position[1]
         # Rosenbrock (banana) function
-        val=(1-x)**2+100*(y-x**2)**2
+        #val=(1-x)**2+100*(y-x**2)**2
+
+        # booth
+        val = np.square(x + (2*y) -7) + np.square(2*x + y - 5)
 
         return val
     
@@ -109,6 +112,7 @@ line += f"{i}, "
 line += f"{pso.global_best}, "
 line += f"{pso.global_best_val}\n"
 
-data_file = open(f"data{args.cognition*10}.csv", "a")
+data_file = open(f"dat/data{args.cognition*10}.csv", "a")
+#data_file = open(f"dat/data_inertia.csv", "a")
 data_file.write(line)
 
